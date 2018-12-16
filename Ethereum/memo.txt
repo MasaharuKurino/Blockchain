@@ -1,0 +1,1 @@
+geth --networkid "10" --nodiscover --datadir "/tools/ethereum/Geth-1.6.5/home/eth_private_net/" --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain "*" --rpcapi "eth,net,web3,personal" --targetgaslimit "20000000" console 2>> /tools/ethereum/Geth-1.6.5/home/eth_private_net/geth_err.log
